@@ -52,6 +52,7 @@ def mandelbrot_parallel(width, height, x_min, x_max, y_min, y_max, max_iter, tim
     return im, None
 
 if __name__ == "__main__":
+    # All multithreaded computation must be performed inside a __main__ block like this one
     # Parameters
     x_min, x_max = -2, 1
     y_min, y_max = -1.5, 1.5
