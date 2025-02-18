@@ -23,5 +23,5 @@ All of the code given here was written and run on an Apple M4 Pro (14C/20). For 
 
 ## render times
 Each step up very noticeably sped up how long it took to render the images, though encoding them into a PNG file remained a bottleneck for each version. I wrote a little script to compare render times for each implementation to find out exactly how much faster each version was.
-<img src="https://raw.githubusercontent.com/yilmaz-kaan/mandelbrot/main/images/compute_times.png" width="400" class="center">
+<img src="https://raw.githubusercontent.com/yilmaz-kaan/mandelbrot/main/images/compute_times.png" width="800">
 
