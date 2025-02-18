@@ -3,6 +3,11 @@ from array import array
 import metalcompute as mc
 from PIL.Image import frombuffer
 
+#------------------- WARNING --------------------
+# This code will only work on Apple Silicon computers!
+# For GPU acceleration with other hardware, 
+# adapt this code to CUDA or HIP or OpenCL or something else idk
+
 def render_mandelbrot_metal(width, height, iterations=50, device_index=-1, output_file="mandelbrot_metal.png", timing = False):
     """
     Render the Mandelbrot set using Metal API and measure the computation time.
