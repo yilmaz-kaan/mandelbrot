@@ -12,6 +12,7 @@ max_iter = 50
 My first attempt at rendering approximations of the Mandelbrot set
 In hindsight a naive approach but it does use symmetry to double computation speed so thats pretty neat
 
+Avoids using complex data types to reduce overheads/streamline rendering.
 """
 
 args = (width, height, xmin, xmax, ymin, ymax, max_iter)
